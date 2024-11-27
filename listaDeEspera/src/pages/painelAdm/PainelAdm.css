@@ -1,0 +1,46 @@
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    background-color: rgb(4, 4, 92);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .cliente{
+    
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    padding: 0 50px;
+    border: 10px solid  rgba(255, 255, 255, 0.048);
+    border-radius: 20px;
+}
+.cliente H1{
+  font-size: 2.5rem;
+  padding: 20px;
+  background-color: rgb(4, 4, 92);
+  color: aliceblue;
+}
+.cliente p{
+  padding: 15px;
+  background-color: aliceblue;
+  color: rgb(4, 4, 92);
+  border-radius: 20px;
+  font-size: 2.5rem;
+  margin-top: 188px;
+}
+.container form div{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.container form div textarea{
+  height: 250px;
+  width: 250px;
+  resize: none;
+}
