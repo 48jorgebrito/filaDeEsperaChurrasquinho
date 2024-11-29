@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './PainelCliente.css'
-import axios from 'axios'
 import { Api } from '../../config/Api'
 
 export default function Painel(){

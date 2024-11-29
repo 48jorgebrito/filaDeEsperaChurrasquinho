@@ -1,6 +1,6 @@
 import './PainelAdm.css'
 import { useForm } from 'react-hook-form'
-import axios from 'axios'
+
 import { Api } from '../../config/Api';
 
 export default function PainelAdm(){
